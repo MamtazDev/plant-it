@@ -10,7 +10,10 @@ const Recruitment = () => {
         alt=""
       />
       <div className="container max-w-[970px] mx-auto">
-        <p className="subtitle  mb-[103px]">
+        <p
+          className="subtitle
+        text-center  mb-[103px] text-[#0E203A]"
+        >
           The recruitment company that cares more about{" "}
           <span>people and planet</span> than profit.
         </p>
