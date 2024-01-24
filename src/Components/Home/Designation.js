@@ -34,7 +34,7 @@ const Designation = () => {
         arrows={false}
       >
         {details.map((data, index) => (
-          <div className="">
+          <div key={index}>
             <p className="text-[#132B51] text-[34px] font-light text-center">
               {data}
             </p>
