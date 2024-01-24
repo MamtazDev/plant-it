@@ -9,7 +9,7 @@ const Recruitment = () => {
         src={recruitment.src}
         alt=""
       />
-      <div className="container max-w-[1093px] mx-auto">
+      <div className="container max-w-[970px] mx-auto">
         <p className="subtitle  mb-[103px]">
           The recruitment company that cares more about{" "}
           <span>people and planet</span> than profit.
