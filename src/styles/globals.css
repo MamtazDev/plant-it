@@ -76,6 +76,8 @@ a {
   line-height: 130%;
 }
 
-.mission{
-  background-image: linear-gradient(180deg, #091526 0%, #0E203A 122.41%);
+.mission {
+  background-image: linear-gradient(180deg, #091526 0%, #0E203A 122.41%), url('../assets/mission.png');
+  background-repeat: no-repeat;
+  background-position: right;
 }

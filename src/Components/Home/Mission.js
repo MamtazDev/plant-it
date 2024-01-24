@@ -4,7 +4,7 @@ import plan from "../../assets/plan-lock.png";
 const Mission = () => {
   const details = ["Planet over profit", "People first", "Keep it personal"];
   return (
-    <div className="mission pt-[168px] pb-[176px]">
+    <div className="mission  pt-[168px] pb-[176px]">
       <div className="container mx-auto">
         <p className="subtitle text-[#F7F4F0] mb-[116px]">
           We’re on a <span>mission</span>{" "}
