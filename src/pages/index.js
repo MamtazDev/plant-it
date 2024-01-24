@@ -1,4 +1,5 @@
 import Banner from "@/Components/Home/Banner";
+import Community from "@/Components/Home/Community";
 import Designation from "@/Components/Home/Designation";
 import LatestRole from "@/Components/Home/LatestRole";
 import Mission from "@/Components/Home/Mission";
@@ -15,6 +16,7 @@ export default function Home() {
       <Mission />
       <Designation />
       <LatestRole />
+      <Community />
       <Footer />
     </div>
   );
