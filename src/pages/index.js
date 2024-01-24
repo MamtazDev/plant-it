@@ -3,6 +3,7 @@ import Designation from "@/Components/Home/Designation";
 import LatestRole from "@/Components/Home/LatestRole";
 import Mission from "@/Components/Home/Mission";
 import Recruitment from "@/Components/Home/Recruitment";
+import Footer from "@/Shared/Footer";
 import Header from "@/Shared/Header";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Mission />
       <Designation />
       <LatestRole />
+      <Footer />
     </div>
   );
 }

@@ -86,7 +86,7 @@ a {
 
 .react-multiple-carousel__arrow {
   bottom: 0;
-  background: rgb(255 255 255 / 18%);
+  background: rgb(255 255 255 / 18%) !important;
 }
 
 .react-multiple-carousel__arrow--left {
