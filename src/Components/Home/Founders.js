@@ -10,7 +10,7 @@ const Founders = () => {
         </p>
         <img className="mx-auto mb-[63px]" src={founder.src} alt="" />
         <div>
-          <p className="text-[#B2DBBA] text-[44px] font-semibold ">
+          <p className="text-[#B2DBBA] text-[44px] font-semibold mb-[46px]">
             Elliott Burrows{" "}
             <span className="text-[42px] font-normal font-libre italic ">
               and

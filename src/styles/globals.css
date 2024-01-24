@@ -118,3 +118,10 @@ a {
   left: 50%;
   transform: translateX(-50%);
 }
+
+.job {
+  background-image: url('../assets/industry.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

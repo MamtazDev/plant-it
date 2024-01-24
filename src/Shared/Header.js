@@ -27,7 +27,7 @@ const Header = () => {
     },
   ];
   return (
-    <header className="pt-[53px] fixed top-0 left-0 w-full">
+    <header className="pt-[53px] fixed top-0 left-0 w-full ">
       <div className="container mx-auto">
         <div className="flex justify-between gap-4 items-center">
           <Link href="/">

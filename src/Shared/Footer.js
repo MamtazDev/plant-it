@@ -48,7 +48,9 @@ const Footer = () => {
 
         <div className="flex items-end justify-between gap-4">
           <div className="flex items-center gap-[27px]">
-            <img src={logo.src} alt="" />
+            <Link href="/">
+            <img  src={logo.src} alt="" />
+            </Link>
             <div className="h-[70px] border-r border-[1.5px] border-[#0E203A]"></div>
             <p className=" text-[30px] font-normal">
               Recruitment{" "}
