@@ -124,4 +124,17 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+
+.job::after {
+  position: absolute;
+  content: '';
+  width: 237px;
+  height: 237px;
+  background-color: #0E203A;
+  border-radius: 50%;
+  top: -121px;
+  left: 50%;
+  transform: translateX(-50%);
 }
