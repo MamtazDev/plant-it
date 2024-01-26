@@ -14,7 +14,7 @@ module.exports = {
       colors: {
         mint: "#B2DBBA",
         offWhite: "#F7F4F0",
-        deepBlue: "#0E203A",
+        deepBlue: "#0E203A", 
         lemon:"#EBF2BD"
       },
     },

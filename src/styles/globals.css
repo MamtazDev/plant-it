@@ -192,7 +192,7 @@ a {
 }
 
 .job {
-  background-image: url('../assets/industry.png');
+  background-image: url('/public/industry.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -212,7 +212,7 @@ a {
 }
 
 .our_team {
-  background-image: url(../assets/termsandcareers-banner-img.png);
+  background-image: url(/public/termsandcareers-banner-img.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 248px;
@@ -234,7 +234,7 @@ a {
 }
 
 .grow {
-  background-image: url('../assets/want-bg.png');
+  background-image: url('/public/want-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -242,7 +242,7 @@ a {
 }
 
 .contact {
-  background-image: url('../assets/contact-bg.png');
+  /* background-image: url('/public/contact-bg.png'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
