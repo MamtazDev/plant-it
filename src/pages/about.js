@@ -1,3 +1,4 @@
+import Community from "@/Components/Home/Community";
 import Banner from "@/Components/TeamAndCareers/Banner";
 import Grow from "@/Components/TeamAndCareers/Grow";
 import Teams from "@/Components/TeamAndCareers/Teams";
@@ -13,6 +14,9 @@ const About = () => {
         </div>
       </section>
       <Grow />
+      <div style={{ backgroundColor: "rgba(247, 244, 240, 0.60)" }}>
+        <Community />
+      </div>
     </div>
   );
 };
