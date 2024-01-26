@@ -1,4 +1,3 @@
-import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -26,8 +25,7 @@ const Job = () => {
           autoPlay={true}
           autoPlaySpeed={2000}
           showDots={true}
-          arrows={false}
-        >
+          arrows={false}>
           {[1, 2, 3].map((index) => (
             <div key={index} className="flex items-start gap-[66px] pb-[122px]">
               <div className="flex-shrink-0">
@@ -36,8 +34,7 @@ const Job = () => {
               </div>
               <p
                 style={{ borderColor: "rgba(19, 43, 81, 0.21)" }}
-                className="border-l-[4px] ps-[66px] text-[40px] font-normal"
-              >
+                className="border-l-[4px] ps-[66px] text-[40px] font-normal">
                 “Plan:it 'get' engineers. They’re not only adept at sourcing
                 top-notch talent but also{" "}
                 <span className="font-libre text-[38px] italic ">

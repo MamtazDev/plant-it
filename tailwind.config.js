@@ -8,8 +8,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      container: {
+        center: true,
+      },
       fontFamily: {
         libre: ["Libre Baskerville", "serif"],
+        fieldWorkGeoRegular: "Fieldwork Geo Regular",
+        fieldworkGeoLight: "Fieldwork Geo Light",
       },
     },
   },
