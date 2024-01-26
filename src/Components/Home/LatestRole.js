@@ -41,9 +41,9 @@ const LatestRole = () => {
     },
   };
   return (
-    <div className="latest_role bg-[#0E203A] pt-[170px] pb-[165px]">
+    <div className="latest_role bg-deepBlue pt-[170px] pb-[165px]">
       <div className="container mx-auto">
-        <p className="subtitle text-[#B2DBBA] mb-[106px]">
+        <p className="subtitle text-mint mb-[106px]">
           Latest <span>roles</span>{" "}
         </p>
         <div className="relative">
@@ -65,7 +65,7 @@ const LatestRole = () => {
             ))}
           </Carousel>
 
-          <button className="absolute bottom-0 left-0 border border-[#F7F4F0] rounded-[80px] py-[14px] px-[50px] text-[#F7F4F0] text-2xl font-normal">
+          <button className="absolute bottom-0 left-0 border border-offWhite rounded-[80px] py-[14px] px-[50px] text-offWhite text-2xl font-normal">
             See all Open Roles
           </button>
         </div>

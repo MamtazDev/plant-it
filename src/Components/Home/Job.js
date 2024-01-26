@@ -17,7 +17,7 @@ const Job = () => {
     },
   };
   return (
-    <div className="job pt-[337px] pb-[211px] text-[#0E203A]">
+    <div className="job pt-[337px] pb-[211px] text-deepBlue">
       <div className="container mx-auto">
         <Carousel
           responsive={responsive}

@@ -33,7 +33,7 @@ const Footer = () => {
     },
   ];
   return (
-    <footer className="bg-[#B2DBBA] pt-[79px] pb-[142px]">
+    <footer className="bg-mint pt-[79px] pb-[142px]">
       <div className="container mx-auto">
         <div className="flex items-center gap-[34px] mb-[74px]">
           {navlinks.slice(0, 3).map((data, index) => (
@@ -51,7 +51,7 @@ const Footer = () => {
             <Link href="/">
             <img  src={logo.src} alt="" />
             </Link>
-            <div className="h-[70px] border-r border-[1.5px] border-[#0E203A]"></div>
+            <div className="h-[70px] border-r border-[1.5px] border-deepBlue"></div>
             <p className=" text-[30px] font-normal">
               Recruitment{" "}
               <span className="font-libre italic  text-3xl"> specialists</span>{" "}

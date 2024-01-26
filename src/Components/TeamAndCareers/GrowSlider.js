@@ -1,19 +1,16 @@
 import React from "react";
+import want1 from "../../assets/want1.png";
+import want2 from "../../assets/want2.png";
+import want3 from "../../assets/want3.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-const Designation = () => {
-  const details = [
-    "Software Engineering",
-    "Product",
-    "DevOps",
-    "Data",
-    "Testing & QA",
-  ];
+const GrowSlider = () => {
+  const pics = [want1, want2, want3];
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 5,
+      items: 3,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -25,19 +22,18 @@ const Designation = () => {
     },
   };
   return (
-    <div className="designation bg-mint py-[65px]">
+    <div>
       <Carousel
         responsive={responsive}
         infinite={true}
         autoPlay={true}
         autoPlaySpeed={2000}
+        showDots={true}
         arrows={false}
       >
-        {details.map((data, index) => (
-          <div key={index}>
-            <p className="text-[#132B51] text-[34px] font-light text-center">
-              {data}
-            </p>
+        {pics.map((data, index) => (
+          <div key={index} className="flex items-start gap-[66px] pb-[122px] ">
+            <img src={data.src} alt="" />
           </div>
         ))}
       </Carousel>
@@ -45,4 +41,4 @@ const Designation = () => {
   );
 };
 
-export default Designation;
+export default GrowSlider;
