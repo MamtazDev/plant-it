@@ -73,6 +73,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 /* import font /-end */
 
 @tailwind base;
@@ -85,6 +86,10 @@
 
 body {
   /* font-family: 'Fieldwork DEMO'; */
+}
+
+.container {
+  max-width: 1320px;
 }
 
 a {
@@ -100,7 +105,7 @@ a {
 
 .title {
   color: #B2DBBA;
-    font-family: 'Fieldwork Geo Regular';
+  font-family: 'Fieldwork Geo Regular';
   font-size: 90px;
   font-style: normal;
   font-weight: 400;
@@ -129,7 +134,7 @@ a {
   line-height: 130%;
 }
 
-.nav_link{
+.nav_link {
   font-family: 'Fieldwork Geo Light';
 }
 
@@ -137,6 +142,18 @@ a {
   background-image: linear-gradient(180deg, #091526 0%, #0E203A 122.41%), url('../assets/mission.png');
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.react-multi-carousel-dot button {
+  border: none !important;
+  width: 18px;
+  height: 18px;
+  background-color: #E2DED7;
+}
+
+.react-multi-carousel-dot--active button {
+  background-color: #132B51;
+
 }
 
 .react-multiple-carousel__arrow {
@@ -194,9 +211,32 @@ a {
   transform: translateX(-50%);
 }
 
-.our_team{
+.our_team {
   background-image: url(../assets/termsandcareers-banner-img.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 248px;
+}
+
+.team_card {
+  position: relative;
+}
+
+.team_card::after {
+  position: absolute;
+  content: "";
+  height: 72%;
+  width: 100%;
+  background-color: rgba(247, 244, 240, 0.04);
+  border-radius: 16px;
+  bottom: 0;
+  left: 0;
+}
+
+.grow {
+  background-image: url('../assets/want-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
 }

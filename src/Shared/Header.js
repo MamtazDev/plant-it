@@ -2,8 +2,10 @@ import Link from "next/link";
 import React from "react";
 import logo from "../assets/logo.png";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 const Header = () => {
+  const { pathname } = useRouter();
   const navlinks = [
     {
       name: "About",
@@ -37,7 +39,9 @@ const Header = () => {
           <div className="flex items-center gap-[34px]">
             {navlinks.map((data, index) => (
               <Link
-                className="nav_link text-[#F7F4F0] font-light text-[21px] leading-[0.42px]"
+                className={`${
+                  pathname === data.path && "text-lemon font-semibold"
+                }  nav_link text-offWhite font-light text-[21px] leading-[0.42px]`}
                 href={data.path}
               >
                 {data.name}
