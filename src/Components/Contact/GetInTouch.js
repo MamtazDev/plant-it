@@ -4,10 +4,11 @@ import instagram from "../../assets/insta.png";
 import linkedin from "../../assets/linked.png";
 import telegram from "../../assets/tele.png";
 import Link from "next/link";
+import contactImg from "../../../public/contact-bg.png"
 
 const GetInTouch = () => {
   return (
-    <div className="contact text-center text-white pt-[258px] pb-[306px]">
+    <div className="contact text-center text-white pt-[258px] pb-[306px] bg-imageOne" style={{backgroundImage: `url(${contactImg.src})`}} >
       <div className="container mx-auto">
         <p className="subtitle text-center text-mint mb-[133px]">
           Get In <span>Touch</span>{" "}
