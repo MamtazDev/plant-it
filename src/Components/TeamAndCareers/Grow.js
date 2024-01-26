@@ -1,9 +1,13 @@
 import React from "react";
 import GrowSlider from "./GrowSlider";
+import growBg from "../../assets/want-bg.png";
 
 const Grow = () => {
   return (
-    <div className="grow pt-[170px] pb-[188px] ">
+    <div
+      style={{ backgroundImage: `url(${growBg.src})` }}
+      className="grow pt-[170px] pb-[188px] "
+    >
       <div className="container mx-auto">
         <div className="max-w-[710px] mb-[155px]">
           <p className="subtitle mb-[35px]">
