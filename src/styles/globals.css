@@ -97,7 +97,7 @@ a {
 }
 
 .banner {
-  background-image: url('/public/banner.png');
+  /* background-image: url('/public/banner.png'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -212,7 +212,7 @@ a {
 }
 
 .our_team {
-  background-image: url(/public/termsandcareers-banner-img.png);
+  /* background-image: url(/public/termsandcareers-banner-img.png); */
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 248px;
@@ -229,6 +229,7 @@ a {
   background-image: url(../assets/bg_round_shape.png);
   background-repeat: no-repeat;
 }
+
 .team_card {
   position: relative;
 }
@@ -245,7 +246,7 @@ a {
 }
 
 .grow {
-  background-image: url('/public/want-bg.png');
+  /* background-image: url('/public/want-bg.png'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
