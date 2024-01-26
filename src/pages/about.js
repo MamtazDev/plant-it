@@ -2,12 +2,13 @@ import Community from "@/Components/Home/Community";
 import Banner from "@/Components/TeamAndCareers/Banner";
 import Grow from "@/Components/TeamAndCareers/Grow";
 import Teams from "@/Components/TeamAndCareers/Teams";
+import teamBg from "../assets/termsandcareers-banner-img.png"
 import React from "react";
 
 const About = () => {
   return (
     <div>
-      <section className="our_team pb-[185px]">
+      <section style={{backgroundImage:`url(${teamBg.src})`}} className="our_team pb-[185px]">
         <div className="container mx-auto">
           <Banner />
           <Teams />
