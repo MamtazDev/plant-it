@@ -72,7 +72,7 @@ const Teams = () => {
         </div>
       ))}
       <div className="relative top-[21%]">
-        <div className="border-2 rounded-2xl border-[#EBF2BD] text-white pr-[51px] pl-[55px] pt-[86px] pb-[228px]">
+        <div className="border-2 rounded-2xl border-lemon text-white pr-[51px] pl-[55px] pt-[86px] pb-[228px]">
           <p className="subtitle mb-[28px]">
             We’re <br /> <span>Hiring</span>{" "}
           </p>

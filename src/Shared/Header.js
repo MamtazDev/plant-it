@@ -40,7 +40,7 @@ const Header = () => {
             {navlinks.map((data, index) => (
               <Link
                 className={`${
-                  pathname === data.path && "text-[#EBF2BD] font-semibold"
+                  pathname === data.path && "text-lemon font-semibold"
                 }  nav_link text-offWhite font-light text-[21px] leading-[0.42px]`}
                 href={data.path}
               >

@@ -144,6 +144,18 @@ a {
   background-position: right;
 }
 
+.react-multi-carousel-dot button {
+  border: none !important;
+  width: 18px;
+  height: 18px;
+  background-color: #E2DED7;
+}
+
+.react-multi-carousel-dot--active button {
+  background-color: #132B51;
+
+}
+
 .react-multiple-carousel__arrow {
   bottom: 0;
   background: rgb(255 255 255 / 18%) !important;
@@ -219,6 +231,12 @@ a {
   border-radius: 16px;
   bottom: 0;
   left: 0;
+}
 
+.grow {
+  background-image: url('../assets/want-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 
 }

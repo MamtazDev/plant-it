@@ -32,7 +32,7 @@ const Mission = () => {
         </div>
 
         <div className="text-end">
-          <button className="bg-[#EBF2BD] rounded-[80px] text-deepBlue text-2xl font-light capitalize py-[14px] px-[50px]">
+          <button className="bg-lemon rounded-[80px] text-deepBlue text-2xl font-light capitalize py-[14px] px-[50px]">
             find out more
           </button>
         </div>
