@@ -25,7 +25,7 @@ const Designation = () => {
     },
   };
   return (
-    <div className="designation bg-[#B2DBBA] py-[65px]">
+    <div className="designation bg-mint py-[65px]">
       <Carousel
         responsive={responsive}
         infinite={true}

@@ -12,12 +12,12 @@ const Recruitment = () => {
       <div className="container max-w-[970px] mx-auto">
         <p
           className="subtitle
-        text-center  mb-[103px] text-[#0E203A]"
+        text-center  mb-[103px] text-deepBlue"
         >
           The recruitment company that cares more about{" "}
           <span>people and planet</span> than profit.
         </p>
-        <p className="text-2xl font-light text-[#0E203A] text-center">
+        <p className="text-2xl font-light text-deepBlue text-center">
           Lorem ipsum dolor sit amet consectetur. <br /> Et sagittis nec neque
           ut varius suspendisse. Bibendum etiam cursus leo aliquet venenatis
           diam lobortis nunc tristique. Nunc nulla neque lectus placerat aliquam

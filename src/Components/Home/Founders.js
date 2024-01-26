@@ -5,19 +5,19 @@ const Founders = () => {
   return (
     <div className="founders text-center pt-[170px] pb-[194px]">
       <div className="container mx-auto">
-        <p className="subtitle  text-[#F7F4F0] mb-[130px]">
+        <p className="subtitle  text-offWhite mb-[130px]">
           Meet the <span>Founders</span>
         </p>
         <img className="mx-auto mb-[63px]" src={founder.src} alt="" />
         <div>
-          <p className="text-[#B2DBBA] text-[44px] font-semibold mb-[46px]">
+          <p className="text-mint text-[44px] font-semibold mb-[46px]">
             Elliott Burrows{" "}
             <span className="text-[42px] font-normal font-libre italic ">
               and
             </span>{" "}
             Will Laing{" "}
           </p>
-          <p className="text-[#F7F4F0] text-[20px] font-light max-w-[916px] mx-auto pb-[87px]">
+          <p className="text-offWhite text-[20px] font-light max-w-[916px] mx-auto pb-[87px]">
             Lorem ipsum dolor sit amet consectetur. Ipsum morbi netus rhoncus
             parturient consectetur. Sed adipiscing mi mauris at blandit. Non
             libero sit ultrices sed. Sollicitudin eget massa nascetur egestas

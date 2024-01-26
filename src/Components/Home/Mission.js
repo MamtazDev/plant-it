@@ -6,7 +6,7 @@ const Mission = () => {
   return (
     <div className="mission  pt-[168px] pb-[176px]">
       <div className="container mx-auto">
-        <p className="subtitle text-[#F7F4F0] mb-[116px]">
+        <p className="subtitle text-offWhite mb-[116px]">
           We’re on a <span>mission</span>{" "}
         </p>
         <div className="relative">
@@ -32,7 +32,7 @@ const Mission = () => {
         </div>
 
         <div className="text-end">
-          <button className="bg-[#EBF2BD] rounded-[80px] text-[#0E203A] text-2xl font-light capitalize py-[14px] px-[50px]">
+          <button className="bg-[#EBF2BD] rounded-[80px] text-deepBlue text-2xl font-light capitalize py-[14px] px-[50px]">
             find out more
           </button>
         </div>
