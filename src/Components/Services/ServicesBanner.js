@@ -9,6 +9,7 @@ import compnayimg4 from "../../assets/laka.png";
 import compnayimg1 from "../../assets/pvo.png";
 import compnayimg5 from "../../assets/wagastream.png";
 import ServiceBannerSlider from "./ServiceBannerSlider";
+import serviceBg from "../../../public/termsandcareers-banner-img.png"
 
 const ServicesBanner = () => {
   const settings = {
@@ -22,7 +23,7 @@ const ServicesBanner = () => {
   };
 
   return (
-    <section className="service">
+    <section className="service" style={{backgroundImage:`url(${serviceBg.src})`}}>
       <div className="container">
         <div className="section_heading pb-[133px]">
           <p className="title pb-[133px]">
@@ -76,7 +77,7 @@ const ServicesBanner = () => {
 
         <div className="compnay_wrapper flex item justify-between pb-[63px]">
           <div className="company_item">
-            <Image src={compnayimg1} alt="compnay_img" />
+            <Image  src={compnayimg1} alt="compnay_img" />
           </div>
           <div className="company_item">
             <Image src={compnayimg2} alt="compnay_img" />

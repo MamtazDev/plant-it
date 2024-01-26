@@ -219,7 +219,7 @@ a {
 }
 
 .service {
-  background-image: url(../assets/termsandcareers-banner-img.png);
+  /* background-image: url(../assets/termsandcareers-banner-img.png); */
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 248px;

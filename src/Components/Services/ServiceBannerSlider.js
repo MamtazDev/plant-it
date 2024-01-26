@@ -11,8 +11,8 @@ import "swiper/css/navigation";
 import sliderImgOne from "../../assets/image_left.png";
 import sliderImgTwo from "../../assets/image_large.png";
 import sliderImgThree from "../../assets/image-right.png";
-import arrowLeft from "../../assets/arrowRight.png";
-import arrowRight from "../../assets/arrowLeft.png";
+import arrowLeft from "../../assets/arrowLeft.png";
+import arrowRight from "../../assets/arrowRight.png";
 
 // Initialize Swiper core
 SwiperCore.use([Navigation, EffectZoom]);
@@ -52,12 +52,13 @@ const ServiceBannerSlider = () => {
           <SwiperSlide key={index}>
             <div className="banner_img flex items-center justify-center mb-[70px]">
               <div className="banner_item">
-                <img src={img} alt={`Slider ${index + 1}`} />
+                <img src={img.src} alt={`Slider ${index + 1}`} />
               </div>
+            
             </div>
             <div className="image_title flex items-center justify-between mb-[27px]">
               <button className="left_arrow" onClick={handlePrev}>
-                <img src={arrowLeft} alt="Left Arrow" />
+                <img src={arrowLeft.src} alt="Left Arrow" />
               </button>
               <div className="title">
                 <h2 className="text-[50px] font-semibold text-white">
@@ -65,7 +66,7 @@ const ServiceBannerSlider = () => {
                 </h2>
               </div>
               <button className="right_arrow" onClick={handleNext}>
-                <img src={arrowRight} alt="Right Arrow" />
+                <img src={arrowRight.src} alt="Right Arrow" />
               </button>
             </div>
             <div className="description flex justify-center">
