@@ -27,7 +27,7 @@ const Header = () => {
     },
   ];
   return (
-    <header className="pt-[53px] fixed top-0 left-0 w-full ">
+    <header className="pt-[53px] absolute w-full ">
       <div className="container mx-auto">
         <div className="flex justify-between gap-4 items-center">
           <Link href="/">
@@ -37,7 +37,7 @@ const Header = () => {
           <div className="flex items-center gap-[34px]">
             {navlinks.map((data, index) => (
               <Link
-                className="text-[#F7F4F0] font-light text-[21px] leading-[0.42px]"
+                className="nav_link text-[#F7F4F0] font-light text-[21px] leading-[0.42px]"
                 href={data.path}
               >
                 {data.name}

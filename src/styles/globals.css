@@ -2,25 +2,77 @@
 
 /* import font */
 @font-face {
-  font-family: 'Fieldwork DEMO';
-  src: url('../assets/font/Fieldwork-Geo-Fat-Demo.woff2') format('woff2'),
-    url('../assets/font/Fieldwork-Geo-Fat-Demo.woff') format('woff'),
-    url('../assets/font/Fieldwork-Hum-Hair-Demo.ttf') format('truetype');
+  font-family: 'Fieldwork Geo Bold';
+  src: url('../assets/font/Fieldwork-GeoBold.woff2') format('woff2'),
+    url('../assets/font/Fieldwork-GeoBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fieldwork Geo Semibold';
+  src: url('../assets/font/Fieldwork-GeoDemibold.woff2') format('woff2'),
+    url('../assets/font/Fieldwork-GeoDemibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fieldwork Geo Black';
+  src: url('../assets/font/Fieldwork-GeoBlack.woff2') format('woff2'),
+    url('../assets/font/Fieldwork-GeoBlack.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fieldwork Hum Bold';
+  src: url('../assets/font/Fieldwork-HumBold.woff2') format('woff2'),
+    url('../assets/font/Fieldwork-HumBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fieldwork Geo Regular';
+  src: url('../assets/font/Fieldwork-GeoRegular.woff2') format('woff2'),
+    url('../assets/font/Fieldwork-GeoRegular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Fieldwork DEMO';
-  src: url('../assets/font/Fieldwork-Geo-Fat-Demo.woff2') format('woff2'),
-    url('../assets/font/Fieldwork-Geo-Fat-Demo.woff') format('woff'),
-    url('../assets/font/Fieldwork-Hum-Hair-Demo.ttf') format('truetype');
-  font-weight: 200;
+  font-family: 'Fieldwork Geo Light';
+  src: url('../assets/font/Fieldwork-GeoLight.woff2') format('woff2'),
+    url('../assets/font/Fieldwork-GeoLight.woff') format('woff');
+  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
+
+@font-face {
+  font-family: 'Fieldwork Hum Regular';
+  src: url('../assets/font/Fieldwork-HumRegular.woff2') format('woff2'),
+    url('../assets/font/Fieldwork-HumRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fieldwork Hum Semibold';
+  src: url('../assets/font/Fieldwork-HumDemiBold.woff2') format('woff2'),
+    url('../assets/font/Fieldwork-HumDemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
 /* import font /-end */
 
 @tailwind base;
@@ -48,6 +100,7 @@ a {
 
 .title {
   color: #B2DBBA;
+    font-family: 'Fieldwork Geo Regular';
   font-size: 90px;
   font-style: normal;
   font-weight: 400;
@@ -76,13 +129,15 @@ a {
   line-height: 130%;
 }
 
+.nav_link{
+  font-family: 'Fieldwork Geo Light';
+}
+
 .mission {
   background-image: linear-gradient(180deg, #091526 0%, #0E203A 122.41%), url('../assets/mission.png');
   background-repeat: no-repeat;
   background-position: right;
 }
-
-
 
 .react-multiple-carousel__arrow {
   bottom: 0;
@@ -137,4 +192,11 @@ a {
   top: -121px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.our_team{
+  background-image: url(../assets/termsandcareers-banner-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 248px;
 }
