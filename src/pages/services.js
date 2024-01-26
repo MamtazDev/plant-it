@@ -11,7 +11,6 @@ const Services = () => {
       <ServicesBanner />
       <OurThreeTiers />
       <Testimonail />
-      <Footer />
     </>
   );
 };
