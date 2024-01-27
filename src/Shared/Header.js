@@ -27,7 +27,11 @@ const Header = () => {
               <img src={hambergur.src} alt="" />
             </button>
           </div>
-          {show && <NavLinks />}
+          {show && (
+            <div className="bg-deepBlue p-8 my-4 shadow">
+              <NavLinks />
+            </div>
+          )}
         </div>
       </div>
     </header>

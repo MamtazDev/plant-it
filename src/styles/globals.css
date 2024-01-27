@@ -222,7 +222,6 @@ a {
 .our_team {
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 248px;
 }
 
 .service {
@@ -296,5 +295,12 @@ a {
 
   .latest_role .react-multi-carousel-track {
     padding-top: 100px !important;
+  }
+
+  .team_card::after {
+    height: 79%;
+  }
+  .our_team .react-multi-carousel-dot--active button{
+    background-color: #EBF2BD;
   }
 }

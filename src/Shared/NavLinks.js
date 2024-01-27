@@ -3,31 +3,31 @@ import { useRouter } from "next/router";
 import React from "react";
 
 const NavLinks = () => {
-    const { pathname } = useRouter();
-    const navlinks = [
-        {
-          name: "About",
-          path: "/about",
-        },
-        {
-          name: "Services",
-          path: "/services",
-        },
-        {
-          name: "Latest Roles",
-          path: "/latest-roles",
-        },
-        {
-          name: "Contact",
-          path: "/contact",
-        },
-        {
-          name: "Blog",
-          path: "/blog",
-        },
-      ];
+  const { pathname } = useRouter();
+  const navlinks = [
+    {
+      name: "About",
+      path: "/about",
+    },
+    {
+      name: "Services",
+      path: "/services",
+    },
+    {
+      name: "Latest Roles",
+      path: "/latest-roles",
+    },
+    {
+      name: "Contact",
+      path: "/contact",
+    },
+    {
+      name: "Blog",
+      path: "/blog",
+    },
+  ];
   return (
-    <div className="flex flex-col lg:flex-row items-center gap-[34px]">
+    <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-[34px]">
       {navlinks.map((data, index) => (
         <Link
           className={`${
