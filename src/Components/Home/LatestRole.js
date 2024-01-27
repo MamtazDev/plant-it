@@ -41,9 +41,9 @@ const LatestRole = () => {
     },
   };
   return (
-    <div className="latest_role bg-deepBlue pt-[170px] pb-[165px]">
+    <div className="latest_role bg-deepBlue px-[30px] pt-[90px] lg:pt-[170px] pb-[85px] lg:pb-[165px]">
       <div className="container mx-auto">
-        <p className="subtitle text-mint mb-[106px]">
+        <p className=" subtitle text-mint -mb-10 lg:mb-[106px]">
           Latest <span>roles</span>{" "}
         </p>
         <div className="relative">
@@ -54,18 +54,23 @@ const LatestRole = () => {
             autoPlaySpeed={2000}
           >
             {details.map((data, index) => (
-              <div key={index} className="mr-[60px] text-white mb-[209px]">
+              <div
+                key={index}
+                className="lg:mr-[60px] text-white mb-[66px] lg:mb-[209px]"
+              >
                 <img className="mb-10" src={data.pic.src} alt="" />
-                <p className="text-[34px] font-normal capitalize mb-5">
+                <p className="text-[18px] lg:text-[34px] font-normal capitalize mb-3 lg:mb-5">
                   {data.designation}
                 </p>
-                <p className="text-[26px] font-light mb-3">{data.name}</p>
-                <p className="text-[22px] font-light">{data.date}</p>
+                <p className="text-sm lg:text-[26px] font-light mb-3">
+                  {data.name}
+                </p>
+                <p className="text-xs lg:text-[22px] font-light">{data.date}</p>
               </div>
             ))}
           </Carousel>
 
-          <button className="absolute bottom-0 left-0 border border-offWhite rounded-[80px] py-[14px] px-[50px] text-offWhite text-2xl font-normal">
+          <button className="lg:absolute bottom-0 left-0 border border-offWhite rounded-[80px] py-[9px] lg:py-[14px] px-[31px] lg:px-[50px] text-offWhite text-sm lg:text-2xl font-normal">
             See all Open Roles
           </button>
         </div>

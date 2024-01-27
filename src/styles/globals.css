@@ -281,4 +281,20 @@ a {
   .founders .container::before {
     height: 87%;
   }
+
+  .job::after {
+    width: 105px;
+    height: 105px;
+    top: -55px;
+  }
+
+  .react-multiple-carousel__arrow {
+    background-color: transparent !important;
+    top: 0;
+    bottom: unset;
+  }
+
+  .latest_role .react-multi-carousel-track {
+    padding-top: 100px !important;
+  }
 }
