@@ -24,11 +24,11 @@ const ServicesBanner = () => {
 
   return (
     // service
-    <section className="" style={{backgroundImage:`url(${serviceBg.src})`}}>
+    <section className="" style={{ backgroundImage: `url(${serviceBg.src})` }}>
       <div className="container">
-        <div className="section_heading pb-[133px]">
-          <p className="title pb-[133px]">
-            Our <span>Team </span>
+        <div className="section_heading pt-[220px] pb-[133px]">
+          <p className="title pb-[150px]">
+            Our <span>Services </span>
           </p>
 
           <h3 className="service_sub_heading text-[70px] font-fieldWorkGeoRegular text-white text-center">
@@ -78,7 +78,7 @@ const ServicesBanner = () => {
 
         <div className="compnay_wrapper flex item justify-between pb-[63px]">
           <div className="company_item">
-            <Image  src={compnayimg1} alt="compnay_img" />
+            <Image src={compnayimg1} alt="compnay_img" />
           </div>
           <div className="company_item">
             <Image src={compnayimg2} alt="compnay_img" />
