@@ -89,7 +89,7 @@ body {
 }
 
 .container {
-  max-width: 1320px;
+  max-width: 1350px;
 }
 
 a {
@@ -275,6 +275,10 @@ a {
 
   .subtitle,
   .subtitle span {
-    font-size: 26px;
+    font-size: 30px;
+  }
+
+  .founders .container::before {
+    height: 87%;
   }
 }

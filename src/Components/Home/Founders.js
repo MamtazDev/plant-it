@@ -3,21 +3,25 @@ import founder from "../../assets/founders.png";
 
 const Founders = () => {
   return (
-    <div className="founders text-center pt-[170px] pb-[194px]">
-      <div className="container mx-auto">
-        <p className="subtitle  text-offWhite mb-[130px]">
+    <div className="founders lg:text-center px-[30px] pt-[82px] lg:pt-[170px] pb-[90px] lg:pb-[194px]">
+      <div className="px-[30px] container mx-auto">
+        <p className="subtitle  text-offWhite mb-6 lg:mb-[130px]">
           Meet the <span>Founders</span>
         </p>
-        <img className="mx-auto mb-[63px]" src={founder.src} alt="" />
+        <img
+          className="w-[80%] lg:w-auto mx-auto mb-6 lg:mb-[63px]"
+          src={founder.src}
+          alt=""
+        />
         <div>
-          <p className="text-mint text-[44px] font-semibold mb-[46px]">
+          <p className="text-mint text-2xl lg:text-[44px] font-semibold mb-[25px] lg:mb-[46px]">
             Elliott Burrows{" "}
-            <span className="text-[42px] font-normal font-libre italic ">
+            <span className="text-2xl lg:text-[42px] font-normal font-libre italic ">
               and
             </span>{" "}
             Will Laing{" "}
           </p>
-          <p className="text-offWhite text-[20px] font-light max-w-[916px] mx-auto pb-[87px]">
+          <p className="text-offWhite text-sm lg:text-[20px] font-light max-w-[916px] mx-auto pb-[44px] lg:pb-[87px]">
             Lorem ipsum dolor sit amet consectetur. Ipsum morbi netus rhoncus
             parturient consectetur. Sed adipiscing mi mauris at blandit. Non
             libero sit ultrices sed. Sollicitudin eget massa nascetur egestas

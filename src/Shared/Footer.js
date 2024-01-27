@@ -33,7 +33,7 @@ const Footer = () => {
     },
   ];
   return (
-    <footer className="bg-mint px-[30px] pt-[79px] pb-[142px]">
+    <footer className="bg-mint px-[30px] pt-[79px] pb-[90px] lg:pb-[142px]">
       <div className="container mx-auto">
         <div className="flex items-center gap-[34px] mb-[74px]">
           {navlinks.slice(0, 3).map((data, index) => (
