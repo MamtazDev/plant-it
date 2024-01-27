@@ -19,7 +19,6 @@ SwiperCore.use([Navigation, EffectZoom]);
 
 const ServiceBannerSlider = () => {
   const [swiper, setSwiper] = useState(null);
-
   const images = [sliderImgOne, sliderImgTwo, sliderImgThree];
   const titles = ["Title 1", "Title 2", "Title 3"];
   const descriptions = [
@@ -43,19 +42,15 @@ const ServiceBannerSlider = () => {
   return (
     <>
       {/* ... Other slider components */}
-      <Swiper
-        navigation={{ prevEl: ".left_arrow", nextEl: ".right_arrow" }}
-        effect="zoom"
-        zoom={{ maxRatio: 2 }}
-        onSwiper={setSwiper}>
+      <Swiper navigation={{ prevEl: ".left_arrow", nextEl: ".right_arrow" }} effect="zoom" zoom={{ maxRatio: 2 }} onSwiper={setSwiper}>
         {images.map((img, index) => (
           <SwiperSlide key={index}>
             <div className="banner_img flex items-center justify-center mb-[70px]">
               <div className="banner_item">
                 <img src={img.src} alt={`Slider ${index + 1}`} />
               </div>
-            
             </div>
+
             <div className="image_title flex items-center justify-between mb-[27px]">
               <button className="left_arrow" onClick={handlePrev}>
                 <img src={arrowLeft.src} alt="Left Arrow" />
@@ -69,6 +64,7 @@ const ServiceBannerSlider = () => {
                 <img src={arrowRight.src} alt="Right Arrow" />
               </button>
             </div>
+
             <div className="description flex justify-center">
               <p className="text-white text-[24px] fieldworkGeoLight max-w-[803px]">
                 {descriptions[index]}
