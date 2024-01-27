@@ -17,7 +17,7 @@ const Job = () => {
     },
   };
   return (
-    <div className="job pt-[337px] pb-[211px] text-deepBlue">
+    <div className="job px-[30px] pt-[135px] lg:pt-[337px] pb-[90px] lg:pb-[211px] text-deepBlue">
       <div className="container mx-auto">
         <Carousel
           responsive={responsive}
@@ -25,19 +25,26 @@ const Job = () => {
           autoPlay={true}
           autoPlaySpeed={2000}
           showDots={true}
-          arrows={false}>
+          arrows={false}
+        >
           {[1, 2, 3].map((index) => (
-            <div key={index} className="flex items-start gap-[66px] pb-[122px]">
-              <div className="flex-shrink-0">
-                <p className="text-[34px] font-semibold mb-1 ">Job Tile</p>
-                <p className="text-[30px] font-light  ">Industry</p>
+            <div
+              key={index}
+              className="flex flex-col-reverse lg:flex-row items-start gap-10 lg:gap-[66px] pb-[62px] lg:pb-[122px]"
+            >
+              <div className="flex-shrink-0 mx-auto">
+                <p className="text-[18px] lg:text-[34px] font-semibold mb-[1px] lg:mb-1 ">
+                  Job Tile
+                </p>
+                <p className="text-sm lg:text-[30px] font-light  ">Industry</p>
               </div>
               <p
                 style={{ borderColor: "rgba(19, 43, 81, 0.21)" }}
-                className="border-l-[4px] ps-[66px] text-[40px] font-normal">
+                className="text-center lg:text-start border-b-2 lg:border-b-0 lg:border-l-4 pb-[40px] lg:pb-0 lg:ps-[66px] text-[22px] lg:text-[40px] font-normal"
+              >
                 “Plan:it 'get' engineers. They’re not only adept at sourcing
                 top-notch talent but also{" "}
-                <span className="font-libre text-[38px] italic ">
+                <span className="font-libre text-[22px] lg:text-[38px] italic ">
                   {" "}
                   possess a deep understanding of their mindset and needs.
                 </span>

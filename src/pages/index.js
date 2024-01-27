@@ -5,6 +5,7 @@ import Founders from "@/Components/Home/Founders";
 import Job from "@/Components/Home/Job";
 import LatestRole from "@/Components/Home/LatestRole";
 import Mission from "@/Components/Home/Mission";
+import MissionSlider from "@/Components/Home/MissionSlider";
 import Recruitment from "@/Components/Home/Recruitment";
 
 export default function Home() {
@@ -12,7 +13,12 @@ export default function Home() {
     <div>
       <Banner />
       <Recruitment />
-      <Mission />
+      <div className="hidden lg:block">
+        <Mission />
+      </div>
+      <div className="lg:hidden">
+        <MissionSlider />
+      </div>
       <Designation />
       <LatestRole />
       <Job />
