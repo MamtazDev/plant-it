@@ -19,7 +19,7 @@ const MissionSlider = () => {
     },
   };
   return (
-    <div className="mission px-[30px] lg:px-0 py-[90px] relative z-10">
+    <div className="mission px-[30px]  py-[90px] relative z-10">
       <img
         className="lg:hidden absolute top-0 left-0 -z-10"
         src={missionBgSm.src}

@@ -13,7 +13,12 @@ const Brands = () => {
       <div className="container mx-auto">
         <div className="flex items-center gap-[69px] overflow-x-auto no-scrollbar">
           {brands.map((data, index) => (
-            <img key={index} src={data.src} alt="brand" />
+            <img
+              className="h-[17px] lg:h-auto"
+              key={index}
+              src={data.src}
+              alt="brand"
+            />
           ))}
         </div>
       </div>

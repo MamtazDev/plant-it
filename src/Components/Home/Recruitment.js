@@ -4,7 +4,7 @@ import recruitmentSm from "../../assets/recrutement-sm.png";
 
 const Recruitment = () => {
   return (
-    <div className="px-[30px] lg-px-0 recruitment pt-[85px] lg:pt-[232px] pb-[90px] lg:pb-[248px] relative">
+    <div className="px-[30px]  recruitment pt-[85px] lg:pt-[232px] pb-[90px] lg:pb-[248px] relative">
       <img
         className="hidden lg:block absolute top-0 left-0 object-contain -z-10"
         src={recruitment.src}

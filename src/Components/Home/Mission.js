@@ -6,7 +6,7 @@ import missionBg from "../../assets/mission.png";
 const Mission = () => {
   const details = ["Planet over profit", "People first", "Keep it personal"];
   return (
-    <div className="mission px-[30px] lg:px-0 pt-[90px] lg:pt-[168px] pb-[176px] relative z-10">
+    <div className="mission px-[30px]  pt-[90px] lg:pt-[168px] pb-[176px] relative z-10">
       <img
         className="block absolute top-0 right-1/4 -z-10"
         src={missionBg.src}
