@@ -23,7 +23,8 @@ const ServicesBanner = () => {
   };
 
   return (
-    <section className="service" style={{backgroundImage:`url(${serviceBg.src})`}}>
+    // service
+    <section className="" style={{backgroundImage:`url(${serviceBg.src})`}}>
       <div className="container">
         <div className="section_heading pb-[133px]">
           <p className="title pb-[133px]">
