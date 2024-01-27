@@ -27,7 +27,7 @@ const OurThreeTiers = () => {
           </h3>
         </div>
 
-        <div className="tiers_wrapper flex flex-wrap gap-16">
+        <div className="tiers_wrapper flex gap-16">
           {TiesrsData.map((tiersItem, index) => (
             <div className="tiers_item py-[60px] px-[55px] bg-[#F4F8DA] rounded-[16px]" key={index}>
               <div clasName="tiers_head">
