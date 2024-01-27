@@ -7,7 +7,6 @@ import Header from "@/Shared/Header";
 const Services = () => {
   return (
     <>
-      <Header />
       <ServicesBanner />
       <OurThreeTiers />
       <Testimonail />
