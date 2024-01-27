@@ -96,6 +96,10 @@ a {
   display: block;
 }
 
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
 .banner {
   /* background-image: url('/public/banner.png'); */
   background-repeat: no-repeat;
@@ -139,9 +143,9 @@ a {
 }
 
 .mission {
-  background-image: linear-gradient(180deg, #091526 0%, #0E203A 122.41%), url('../assets/mission.png');
+  background: linear-gradient(180deg, #091526 0%, #0E203A 122.41%);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center;
 }
 
 .react-multi-carousel-dot button {
@@ -168,6 +172,10 @@ a {
 
 .react-multiple-carousel__arrow--right {
   right: 0px !important;
+}
+
+.mission .react-multi-carousel-dot--active button {
+  background-color: #B2DBBA !important;
 }
 
 .founders {
@@ -212,14 +220,12 @@ a {
 }
 
 .our_team {
-  /* background-image: url(/public/termsandcareers-banner-img.png); */
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 248px;
 }
 
 .service {
-  /* background-image: url(../assets/termsandcareers-banner-img.png); */
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 248px;
@@ -246,7 +252,6 @@ a {
 }
 
 .grow {
-  /* background-image: url('/public/want-bg.png'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -254,9 +259,22 @@ a {
 }
 
 .contact {
-  /* background-image: url('/public/contact-bg.png'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
 
+@media screen and (max-width:991px) {
+  .title {
+    font-size: 30px;
+  }
+
+  .title span {
+    font-size: 28px;
+  }
+
+  .subtitle,
+  .subtitle span {
+    font-size: 26px;
+  }
 }
