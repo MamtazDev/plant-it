@@ -32,7 +32,10 @@ const GrowSlider = () => {
         arrows={false}
       >
         {pics.map((data, index) => (
-          <div key={index} className="flex items-start gap-[66px] pb-[122px] ">
+          <div
+            key={index}
+            className="flex items-start gap-[66px] pb-[51px] lg:pb-[122px] "
+          >
             <img src={data.src} alt="" />
           </div>
         ))}

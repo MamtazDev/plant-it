@@ -1,53 +1,37 @@
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import logo from "../assets/logo.png";
-import Image from "next/image";
-import { useRouter } from "next/router";
+import hambergur from "../assets/Hamburger.png";
+import favIcon from "../assets/favicon.png";
+import NavLinks from "./NavLinks";
 
 const Header = () => {
-  const { pathname } = useRouter();
-  const navlinks = [
-    {
-      name: "About",
-      path: "/about",
-    },
-    {
-      name: "Services",
-      path: "/services",
-    },
-    {
-      name: "Latest Roles",
-      path: "/latest-roles",
-    },
-    {
-      name: "Contact",
-      path: "/contact",
-    },
-    {
-      name: "Blog",
-      path: "/blog",
-    },
-  ];
+  const [show, setShow] = useState(false);
   return (
     <header className="pt-[53px] absolute w-full ">
       <div className="container mx-auto">
-        <div className="flex justify-between gap-4 items-center">
+        <div className="hidden lg:flex justify-between gap-4 items-center">
           <Link href="/">
             <img src={logo.src} alt="logo" />
           </Link>
+          <NavLinks />
+        </div>
 
-          <div className="flex items-center gap-[34px]">
-            {navlinks.map((data, index) => (
-              <Link
-                className={`${
-                  pathname === data.path && "text-lemon font-semibold"
-                }  nav_link text-offWhite font-light text-[21px] leading-[0.42px]`}
-                href={data.path}
-              >
-                {data.name}
-              </Link>
-            ))}
+        <div className="lg:hidden">
+          <div className="flex items-center gap-4 justify-between px-7">
+            <Link href="/">
+              <img src={favIcon.src} alt="" />
+            </Link>
+
+            <button onClick={() => setShow(!show)}>
+              <img src={hambergur.src} alt="" />
+            </button>
           </div>
+          {show && (
+            <div className="bg-deepBlue p-8 my-4 shadow">
+              <NavLinks />
+            </div>
+          )}
         </div>
       </div>
     </header>

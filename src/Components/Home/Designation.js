@@ -17,15 +17,15 @@ const Designation = () => {
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2,
+      items: 3,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 1,
+      items: 3,
     },
   };
   return (
-    <div className="designation bg-mint py-[65px]">
+    <div className="designation bg-mint py-[26px] lg:py-[65px] ">
       <Carousel
         responsive={responsive}
         infinite={true}
@@ -35,7 +35,7 @@ const Designation = () => {
       >
         {details.map((data, index) => (
           <div key={index}>
-            <p className="text-[#132B51] text-[34px] font-light text-center">
+            <p className="text-[#132B51] text-[18px] lg:text-[34px] font-light text-center whitespace-nowrap">
               {data}
             </p>
           </div>
