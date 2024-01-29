@@ -51,7 +51,7 @@ const LatestRole = () => {
             responsive={responsive}
             infinite={true}
             autoPlay={true}
-            autoPlaySpeed={2000}
+            autoPlaySpeed={2000}  
           >
             {details.map((data, index) => (
               <div

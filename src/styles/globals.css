@@ -304,3 +304,46 @@ a {
     background-color: #EBF2BD;
   }
 }
+
+
+.tiers_wrapper .react-multi-carousel-dot-list{
+  display: none !important;
+
+}
+.tiers_wrapper .react-multi-carousel-list {
+  padding-bottom: 37px;
+}
+
+@media(max-width: 468px){
+  .tiers_wrapper .react-multi-carousel-dot-list{
+  display: flex !important;
+}
+
+.tiers_wrapper button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left{
+  display: none !important;
+}
+.tiers_wrapper button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right{
+  display: none !important;
+}
+}
+
+@media(max-width: 768px){
+  .banner_item img{
+    width: 300px;
+  }
+}
+
+@media(max-width: 468px){
+  .banner_item img{
+    width: 180px;
+  }
+}
+
+/* .swiper-wrapper{
+  left: 42% !important;
+} */
+
+/* .swiper-slide{
+  width: 350px !important;
+  margin-right: 0 !important;
+} */

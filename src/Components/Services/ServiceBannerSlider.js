@@ -76,9 +76,9 @@ const ServiceBannerSlider = () => {
       <Swiper
         className="swiper-container"
         style={{ width: "100%", height: "100%" }}
-        effect={"coverflow"}
+        effect={"zoom"}
         loop={true}
-        slidesPerView={3} // Adjust this value based on the number of visible slides
+        slidesPerView={2} // Adjust this value based on the number of visible slides
         centeredSlides={true}
         centeredSlidesBounds={true}
         centeredSlidesOffset={0}
@@ -93,16 +93,32 @@ const ServiceBannerSlider = () => {
           prevEl: navigationPrevRef.current,
           nextEl: navigationNextRef.current,
         }}
- 
+        breakpoints={{
+          // when window width is >= 768px
+          768: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          // when window width is >= 992px
+          992: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          // when window width is >= 1200px
+          1200: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+        }}
         onSwiper={setSwiper}
         onSlideChange={handleSlideChange}
         onSlideChangeTransitionEnd={handleSlideChangeTransitionEnd}>
         {images.map((img, index) => (
           <SwiperSlide key={index}>
             <div
-              className="banner_img mb-[70px]"
+              className="banner_img mb-[70px] flex justify-center"
               style={{
-                width: "350px",
+                // width: "350px",
                 transform: `scale(${activeIndex === index ? 1.2 : 1})`, // Adjust the scale factor
                 transition: "transform 0.3s", // Add a transition for smooth effect
               }}>
@@ -119,7 +135,7 @@ const ServiceBannerSlider = () => {
           </button>
 
           <div className="title">
-            <h2 className="text-[50px] font-semibold text-white">
+            <h2 className="text-6 md:text-[50px] font-semibold text-white">
               {titles[activeIndex]}
             </h2>
           </div>
@@ -130,7 +146,7 @@ const ServiceBannerSlider = () => {
         </div>
 
         <div className="description flex justify-center">
-          <p className="text-white text-[24px] fieldworkGeoLight max-w-[803px] text-center">
+          <p className="text-white text-base md:text-[24px] fieldworkGeoLight max-w-[803px] text-center">
             {descriptions[activeIndex]}
           </p>
         </div>
