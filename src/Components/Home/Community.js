@@ -16,7 +16,7 @@ const Community = () => {
             <p className="hidden lg:block subtitle text-deepBlue mb-[47px]">
               Part of the <br /> <span>community</span>{" "}
             </p>
-            <p className="text-deepBlue text-base lg:text-2xl font-light mb-10 lg:mb-[73px]">
+            <p className="text-deepBlue text-base lg:text-2xl font-light mb-10 lg:mb-[73px]  leading-[160%]">
               Will is also the proud co-founder of London.js, a collaborative
               London JavaScript community. <br /> <br />
               Learn, Share, Use JavaScript as we collaborate as a London

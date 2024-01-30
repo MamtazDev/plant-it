@@ -112,7 +112,8 @@ const ServiceBannerSlider = () => {
         }}
         onSwiper={setSwiper}
         onSlideChange={handleSlideChange}
-        onSlideChangeTransitionEnd={handleSlideChangeTransitionEnd}>
+        onSlideChangeTransitionEnd={handleSlideChangeTransitionEnd}
+      >
         {images.map((img, index) => (
           <SwiperSlide key={index}>
             <div
@@ -121,7 +122,8 @@ const ServiceBannerSlider = () => {
                 // width: "350px",
                 transform: `scale(${activeIndex === index ? 1.2 : 1})`, // Adjust the scale factor
                 transition: "transform 0.3s", // Add a transition for smooth effect
-              }}>
+              }}
+            >
               <div className="banner_item mt-10">
                 <img src={img.src} alt={`Slider ${index + 1}`} />
               </div>

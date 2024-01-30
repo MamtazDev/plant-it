@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
 
-const NavLinks = () => {
+const NavLinks = ({ setShow }) => {
   const { pathname } = useRouter();
   const navlinks = [
     {
@@ -27,16 +27,19 @@ const NavLinks = () => {
     },
   ];
   return (
-    <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-[34px]">
+    <div className="flex flex-col lg:flex-row items-end lg:items-center  gap-10 lg:gap-[34px]">
       {navlinks.map((data, index) => (
-        <Link
-          className={`${
-            pathname === data.path && "text-lemon font-semibold"
-          }  nav_link text-offWhite font-light text-[21px] leading-[0.42px]`}
-          href={data.path}
-        >
-          {data.name}
-        </Link>
+        <div key={index}>
+          <Link
+            onClick={() => setShow(false)}
+            className={`${
+              pathname === data.path && "text-lemon font-semibold"
+            } inline-block nav_link text-offWhite font-light text-[21px] leading-[0.42px]`}
+            href={data.path}
+          >
+            {data.name}
+          </Link>
+        </div>
       ))}
     </div>
   );

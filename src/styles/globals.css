@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
 /* import font */
-@font-face {
+/* @font-face {
   font-family: 'Fieldwork Geo Bold';
   src: url('../assets/font/Fieldwork-GeoBold.woff2') format('woff2'),
     url('../assets/font/Fieldwork-GeoBold.woff') format('woff');
@@ -38,7 +38,7 @@
 }
 
 @font-face {
-  font-family: 'Fieldwork Geo Regular';
+  font-family: 'Fieldwork';
   src: url('../assets/font/Fieldwork-GeoRegular.woff2') format('woff2'),
     url('../assets/font/Fieldwork-GeoRegular.woff') format('woff');
   font-weight: normal;
@@ -72,7 +72,18 @@
   font-weight: 600;
   font-style: normal;
   font-display: swap;
+} */
+
+@font-face {
+  font-family: 'Fieldwork';
+  src: url('../../public/font/Fieldwork-Geo-Regular.woff2') format('woff2'),
+      url('../../public/font/Fieldwork-Geo-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
+
+
 
 /* import font /-end */
 
@@ -85,7 +96,7 @@
 
 
 body {
-  /* font-family: 'Fieldwork DEMO'; */
+  font-family: 'Fieldwork';
 }
 
 .container {
@@ -109,7 +120,7 @@ a {
 
 .title {
   color: #B2DBBA;
-  font-family: 'Fieldwork Geo Regular';
+  font-family: 'Fieldwork';
   font-size: 90px;
   font-style: normal;
   font-weight: 400;
