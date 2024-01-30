@@ -50,7 +50,7 @@ const Teams = () => {
               <img className="h-[35px] lg:h-auto" src={linkedin.src} alt="" />
               <img className="h-[35px] lg:h-auto" src={telegram.src} alt="" />
             </div>
-            <p className="text-offWhite text-sm lg:text-[20px] font-normal">
+            <p className="text-offWhite text-sm lg:text-[20px] font-light  leading-[160%]">
               Lorem ipsum dolor sit amet consectetur. Massa et aliquet aliquam
               vel eleifend sed. Feugiat netus ultricies laoreet at nunc vitae
               dui amet risus. Dictumst fermentum phasellus duis neque. Sed
@@ -66,7 +66,7 @@ const Teams = () => {
                 about
               </span>
             </p>
-            <p className="text-sm lg:text-[20px] font-normal">
+            <p className="text-sm lg:text-[20px] font-normal leading-[160%]">
               Lorem ipsum dolor sit amet consectetur. Massa et aliquet aliquam
               vel eleifend sed. Feugiat netus ultricies laoreet at nunc vitae
               dui amet risus. Dictumst fermentum phasellus duis neque.{" "}

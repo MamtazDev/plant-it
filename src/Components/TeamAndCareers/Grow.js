@@ -9,11 +9,11 @@ const Grow = () => {
       className="grow px-[30px] pt-[79px] lg:pt-[170px] pb-[90px] lg:pb-[188px] "
     >
       <div className="container mx-auto">
-        <div className="max-w-[710px] mb-[110px] lg:mb-[155px]">
+        <div className="max-w-[760px] mb-[110px] lg:mb-[155px]">
           <p className="subtitle mb-[50px] lg:mb-[35px]">
             Want to grow <span>with us?</span>{" "}
           </p>
-          <p className="text-base lg:text-[24px] font-light">
+          <p className="text-base lg:text-[24px] font-light  leading-[160%]">
             Et sagittis nec neque ut varius suspendisse. Bibendum etiam cursus
             leo aliquet venenatis diam lobortis nunc tristique. Nunc nulla neque
             lectus placerat aliquam odio. Amet cras vitae adipiscing egestas vel
