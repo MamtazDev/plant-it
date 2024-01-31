@@ -77,7 +77,7 @@
 @font-face {
   font-family: 'Fieldwork';
   src: url('../../public/font/Fieldwork-Geo-Regular.woff2') format('woff2'),
-      url('../../public/font/Fieldwork-Geo-Regular.woff') format('woff');
+    url('../../public/font/Fieldwork-Geo-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -244,6 +244,7 @@ a {
 .out_three_tiers {
   background-image: url(../assets/bg_round_shape.png);
   background-repeat: no-repeat;
+  background-position: center right 61%;
 }
 
 .team_card {
@@ -289,7 +290,7 @@ a {
   }
 
   .founders .container::before {
-    height: 87%;
+    height: 93%;
   }
 
   .job::after {
@@ -311,41 +312,44 @@ a {
   .team_card::after {
     height: 79%;
   }
-  .our_team .react-multi-carousel-dot--active button{
+
+  .our_team .react-multi-carousel-dot--active button {
     background-color: #EBF2BD;
   }
 }
 
 
-.tiers_wrapper .react-multi-carousel-dot-list{
+.tiers_wrapper .react-multi-carousel-dot-list {
   display: none !important;
 
 }
+
 .tiers_wrapper .react-multi-carousel-list {
   padding-bottom: 37px;
 }
 
-@media(max-width: 468px){
-  .tiers_wrapper .react-multi-carousel-dot-list{
-  display: flex !important;
+@media(max-width: 468px) {
+  .tiers_wrapper .react-multi-carousel-dot-list {
+    display: flex !important;
+  }
+
+  .tiers_wrapper button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+    display: none !important;
+  }
+
+  .tiers_wrapper button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
+    display: none !important;
+  }
 }
 
-.tiers_wrapper button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left{
-  display: none !important;
-}
-.tiers_wrapper button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right{
-  display: none !important;
-}
-}
-
-@media(max-width: 768px){
-  .banner_item img{
+@media(max-width: 768px) {
+  .banner_item img {
     width: 300px;
   }
 }
 
-@media(max-width: 468px){
-  .banner_item img{
+@media(max-width: 468px) {
+  .banner_item img {
     width: 180px;
   }
 }

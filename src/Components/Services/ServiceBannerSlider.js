@@ -78,7 +78,7 @@ const ServiceBannerSlider = () => {
         style={{ width: "100%", height: "100%" }}
         effect={"zoom"}
         loop={true}
-        slidesPerView={2} // Adjust this value based on the number of visible slides
+        slidesPerView={2}
         centeredSlides={true}
         centeredSlidesBounds={true}
         centeredSlidesOffset={0}
@@ -119,9 +119,8 @@ const ServiceBannerSlider = () => {
             <div
               className="banner_img mb-[70px] flex justify-center"
               style={{
-                // width: "350px",
-                transform: `scale(${activeIndex === index ? 1.2 : 1})`, // Adjust the scale factor
-                transition: "transform 0.3s", // Add a transition for smooth effect
+                transform: `scale(${activeIndex === index ? 1.2 : 1})`,
+                transition: "transform 0.3s",
               }}
             >
               <div className="banner_item mt-10">
@@ -148,8 +147,8 @@ const ServiceBannerSlider = () => {
         </div>
 
         <div className="description flex justify-center">
-          <p className="text-white text-base md:text-[24px] fieldworkGeoLight max-w-[803px] text-center">
-            {descriptions[activeIndex]}
+          <p className="text-white text-base md:text-[24px] fieldworkGeoLight max-w-[803px] text-center leading-[160%]">
+            {descriptions[activeIndex]} 
           </p>
         </div>
       </Swiper>

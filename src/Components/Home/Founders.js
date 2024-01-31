@@ -4,10 +4,10 @@ import founder from "../../assets/founders.png";
 const Founders = () => {
   return (
     <div className="founders lg:text-center px-[30px] pt-[82px] lg:pt-[170px] pb-[90px] lg:pb-[194px]">
+      <p className="subtitle  text-offWhite mb-6 lg:mb-[130px]">
+        Meet the <span>Founders</span>
+      </p>
       <div className="px-[30px] container mx-auto">
-        <p className="subtitle  text-offWhite mb-6 lg:mb-[130px]">
-          Meet the <span>Founders</span>
-        </p>
         <img
           className="w-[80%] lg:w-auto mx-auto mb-6 lg:mb-[63px]"
           src={founder.src}
@@ -21,7 +21,7 @@ const Founders = () => {
             </span>{" "}
             Will Laing{" "}
           </p>
-          <p className="text-offWhite text-sm lg:text-[20px] font-light max-w-[916px] mx-auto pb-[44px] lg:pb-[87px]">
+          <p className="text-offWhite text-sm lg:text-[20px] font-light max-w-[916px] mx-auto pb-[44px] lg:pb-[87px] leading-[160%]">
             Lorem ipsum dolor sit amet consectetur. Ipsum morbi netus rhoncus
             parturient consectetur. Sed adipiscing mi mauris at blandit. Non
             libero sit ultrices sed. Sollicitudin eget massa nascetur egestas
