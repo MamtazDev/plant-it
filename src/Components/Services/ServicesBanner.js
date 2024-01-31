@@ -1,6 +1,5 @@
-
 import ServiceBannerSlider from "./ServiceBannerSlider";
-import serviceBg from "../../../public/termsandcareers-banner-img.png"
+import serviceBg from "../../../public/termsandcareers-banner-img.png";
 import Marquee from "react-fast-marquee";
 import ServiceMarquee from "./ServiceMarquee";
 
@@ -16,10 +15,9 @@ const ServicesBanner = () => {
   };
 
   return (
-    // service
-    <section className="" style={{ backgroundImage: `url(${serviceBg.src})` }}>
+    <section style={{ backgroundImage: `url(${serviceBg.src})` }}>
       <div className="container">
-        <div className="section_heading pt-[200px] md:pt-[220px] pb-[90px] md:pb-[133px]">
+        <div className="px-[30px] section_heading pt-[200px] md:pt-[220px] pb-[90px] md:pb-[133px]">
           <p className="title pb-[47px] md:pb-[150px]">
             Our <span>Services </span>
           </p>
@@ -35,8 +33,8 @@ const ServicesBanner = () => {
         </div>
 
         <div className="compnay_wrapper pb-[63px]">
-          <Marquee pauseOnHover={true }>
-              <ServiceMarquee/>
+          <Marquee pauseOnHover={true}>
+            <ServiceMarquee />
           </Marquee>
         </div>
       </div>

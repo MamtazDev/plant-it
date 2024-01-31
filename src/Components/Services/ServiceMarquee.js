@@ -10,22 +10,46 @@ const ServiceMarquee = () => {
   return (
     <div className="flex items-center justify-between gap-16">
       <div className="company_item">
-        <Image src={compnayimg1} alt="compnay_img" />
+        <Image
+          className="h-[17px] lg:h-auto"
+          src={compnayimg1}
+          alt="compnay_img"
+        />
       </div>
       <div className="company_item">
-        <Image src={compnayimg2} alt="compnay_img" />
+        <Image
+          className="h-[17px] lg:h-auto"
+          src={compnayimg2}
+          alt="compnay_img"
+        />
       </div>
       <div className="company_item">
-        <Image src={compnayimg3} alt="compnay_img" />
+        <Image
+          className="h-[17px] lg:h-auto"
+          src={compnayimg3}
+          alt="compnay_img"
+        />
       </div>
       <div className="company_item">
-        <Image src={compnayimg4} alt="compnay_img" />
+        <Image
+          className="h-[17px] lg:h-auto"
+          src={compnayimg4}
+          alt="compnay_img"
+        />
       </div>
       <div className="company_item">
-        <Image src={compnayimg5} alt="compnay_img" />
+        <Image
+          className="h-[17px] lg:h-auto"
+          src={compnayimg5}
+          alt="compnay_img"
+        />
       </div>
       <div className="company_item">
-        <Image src={compnayimg6} alt="compnay_img" />
+        <Image
+          className="h-[17px] lg:h-auto"
+          src={compnayimg6}
+          alt="compnay_img"
+        />
       </div>
     </div>
   );

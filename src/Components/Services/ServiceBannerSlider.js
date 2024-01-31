@@ -129,27 +129,36 @@ const ServiceBannerSlider = () => {
             </div>
           </SwiperSlide>
         ))}
+        <div className="px-[30px]">
+          <div className=" image_title flex items-center justify-between mb-[27px]">
+            <button className="left_arrow" onClick={handlePrev}>
+              <img
+                className="h-[32px] lg:h-auto"
+                src={arrowLeft.src}
+                alt="Left Arrow"
+              />
+            </button>
 
-        <div className="image_title flex items-center justify-between mb-[27px]">
-          <button className="left_arrow" onClick={handlePrev}>
-            <img src={arrowLeft.src} alt="Left Arrow" />
-          </button>
+            <div className="title">
+              <h2 className="text-6 md:text-[50px] font-semibold text-white">
+                {titles[activeIndex]}
+              </h2>
+            </div>
 
-          <div className="title">
-            <h2 className="text-6 md:text-[50px] font-semibold text-white">
-              {titles[activeIndex]}
-            </h2>
+            <button className="right_arrow" onClick={handleNext}>
+              <img
+                className="h-[32px] lg:h-auto"
+                src={arrowRight.src}
+                alt="Right Arrow"
+              />
+            </button>
           </div>
 
-          <button className="right_arrow" onClick={handleNext}>
-            <img src={arrowRight.src} alt="Right Arrow" />
-          </button>
-        </div>
-
-        <div className="description flex justify-center">
-          <p className="text-white text-base md:text-[24px] fieldworkGeoLight max-w-[803px] text-center leading-[160%]">
-            {descriptions[activeIndex]} 
-          </p>
+          <div className="description flex justify-center">
+            <p className="text-white text-base md:text-[24px] fieldworkGeoLight max-w-[803px] text-center leading-[160%]">
+              {descriptions[activeIndex]}
+            </p>
+          </div>
         </div>
       </Swiper>
     </>

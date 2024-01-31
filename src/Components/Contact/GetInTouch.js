@@ -62,7 +62,7 @@ const GetInTouch = () => {
             penatibus.
           </p>
 
-          <div className="flex flex-wrap items-center justify-center gap-[45px] lg:gap-[57px]">
+          <div className="flex flex-wrap items-center justify-center gap-[35px] lg:gap-[57px]">
             <button className="w-full lg:w-auto border-[2.5px] text-base lg:text-[24px] font-light rounded-[80px] border-offWhite py-[9px] lg:py-[13px] px-[31px] lg:px-[50px]">
               find out more about us
             </button>
