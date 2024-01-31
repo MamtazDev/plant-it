@@ -40,6 +40,7 @@ const Footer = () => {
             <Link
               className="text-[#132B51] text-sm lg:text-2xl font-normal"
               href={data.path}
+              key={index}
             >
               {data.name}
             </Link>

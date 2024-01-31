@@ -55,7 +55,7 @@ const GetInTouch = () => {
         </div>
 
         <div>
-          <p className="text-base lg:text-[24px] font-light mb-[51px] ">
+          <p className="text-base lg:text-[24px] font-light mb-[51px] leading-[160%]">
             Et sagittis nec neque ut varius suspendisse. Bibendum etiam cursus
             leo aliquet venenatis diam lobortis nunc tristique. Nunc nulla neque
             lectus placerat aliquam odio. Amet cras vitae adipiscing egestas vel

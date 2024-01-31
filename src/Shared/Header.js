@@ -33,7 +33,7 @@ const Header = () => {
           <Link href="/">
             <img src={logo.src} alt="logo" />
           </Link>
-          <NavLinks />
+          <NavLinks setShow={setShow}/>
         </div>
 
         <div

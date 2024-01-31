@@ -33,9 +33,9 @@ const NavLinks = ({ setShow }) => {
           <Link
             onClick={() => setShow(false)}
             className={`${
-              pathname === data.path && "text-lemon font-semibold"
-            } inline-block nav_link text-offWhite font-light text-[21px] leading-[0.42px]`}
-            href={data.path}
+              pathname === data.path ? "text-lemon font-semibold":"text-offWhite font-light"
+            } inline-block nav_link  text-[21px] leading-[0.42px]`}
+            href={data?.path}
           >
             {data.name}
           </Link>
