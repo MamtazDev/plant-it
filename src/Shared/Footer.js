@@ -38,7 +38,7 @@ const Footer = () => {
         <div className="flex items-center gap-[34px] mb-[74px]">
           {navlinks.slice(0, 3).map((data, index) => (
             <Link
-              className="text-[#132B51] text-sm lg:text-2xl font-normal"
+              className="text-[#132B51] text-sm lg:text-2xl font-fieldworkGeoLight"
               href={data.path}
               key={index}
             >
@@ -84,14 +84,14 @@ const Footer = () => {
               </div>
               <div className="lg:text-end">
                 <Link
-                  className="text-sm lg:text-2xl text-[#132B51] font-light mb-1"
+                  className="text-sm lg:text-2xl text-[#132B51] font-fieldworkGeoLight font-light mb-1"
                   target="_blank"
                   href="weareplanit.com "
                 >
                   weareplanit.com
                 </Link>
                 <Link
-                  className="text-sm lg:text-[22px] text-[#132B51] font-light font-libre italic"
+                  className="text-sm lg:text-[22px] text-[#132B51]  font-light font-libre italic"
                   target="_blank"
                   href="mailto:info@weareplanit.com"
                 >

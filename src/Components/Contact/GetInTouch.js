@@ -29,7 +29,7 @@ const GetInTouch = () => {
             </p>
             <Link
               href="mailto:info@weareplan.it.com"
-              className="text-[18px] lg:text-[22px] font-light mb-[26px] lg:mb-[51px]"
+              className="text-[18px] lg:text-[22px] font-fieldworkGeoLight font-light mb-[26px] lg:mb-[51px]"
             >
               info@weareplan.it.com
             </Link>
@@ -55,7 +55,7 @@ const GetInTouch = () => {
         </div>
 
         <div>
-          <p className="text-base lg:text-[24px] font-light mb-[51px] leading-[160%]">
+          <p className="text-base lg:text-[24px] font-fieldworkGeoLight font-light mb-[51px] leading-[160%]">
             Et sagittis nec neque ut varius suspendisse. Bibendum etiam cursus
             leo aliquet venenatis diam lobortis nunc tristique. Nunc nulla neque
             lectus placerat aliquam odio. Amet cras vitae adipiscing egestas vel
@@ -66,7 +66,7 @@ const GetInTouch = () => {
             <button className="w-full lg:w-auto border-[2.5px] text-base lg:text-[24px] font-light rounded-[80px] border-offWhite py-[9px] lg:py-[13px] px-[31px] lg:px-[50px]">
               find out more about us
             </button>
-            <button className="w-full lg:w-auto  border-[2.5px] text-deepBlue text-base lg:text-[24px] font-light rounded-[80px] border-offWhite bg-[#EBF2BD] py-[9px] lg:py-[13px] px-[31px] lg:px-[50px]">
+            <button className="w-full lg:w-auto  border-[2.5px] text-deepBlue text-base lg:text-[24px] font-fieldworkGeoLight font-light rounded-[80px] border-offWhite bg-[#EBF2BD] py-[9px] lg:py-[13px] px-[31px] lg:px-[50px]">
               See all our roles
             </button>
           </div>

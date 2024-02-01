@@ -43,14 +43,14 @@ const Teams = () => {
                 {data.lastName}
               </span>
             </p>
-            <p className="text-offWhite font-semibold text-base lg:text-[30px] mb-6 lg:mb-[30px]">
+            <p className="text-offWhite font-fieldworkGeoBold font-semibold text-base lg:text-[30px] mb-6 lg:mb-[30px]">
               {data.designation}
             </p>
             <div className="flex justify-center items-center gap-4 mb-[23px] lg:mb-[47px]">
               <img className="h-[35px] lg:h-auto" src={linkedin.src} alt="" />
               <img className="h-[35px] lg:h-auto" src={telegram.src} alt="" />
             </div>
-            <p className="text-offWhite text-sm lg:text-[20px] font-light  leading-[160%]">
+            <p className="text-offWhite text-sm lg:text-[20px] font-fieldworkGeoLight font-light  leading-[160%]">
               Lorem ipsum dolor sit amet consectetur. Massa et aliquet aliquam
               vel eleifend sed. Feugiat netus ultricies laoreet at nunc vitae
               dui amet risus. Dictumst fermentum phasellus duis neque. Sed
@@ -66,7 +66,7 @@ const Teams = () => {
                 about
               </span>
             </p>
-            <p className="text-sm lg:text-[20px] font-normal leading-[160%]">
+            <p className="text-sm lg:text-[20px] font-fieldworkGeoLight leading-[160%]">
               Lorem ipsum dolor sit amet consectetur. Massa et aliquet aliquam
               vel eleifend sed. Feugiat netus ultricies laoreet at nunc vitae
               dui amet risus. Dictumst fermentum phasellus duis neque.{" "}
@@ -79,7 +79,7 @@ const Teams = () => {
           <p className="subtitle mb-[28px]">
             We’re <br /> <span>Hiring</span>{" "}
           </p>
-          <p className="text-[20px] font-light">
+          <p className="text-[20px] font-light font-fieldworkGeoLight">
             Lorem ipsum dolor sit amet consectetur. Massa et aliquet aliquam vel
             eleifend sed. Feugiat netus ultricies laoreet at nunc vitae dui amet
             risus.
