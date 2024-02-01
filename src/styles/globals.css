@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
-
-
 @font-face {
   font-family: 'Fieldwork Geo DemiBold';
   src: url('../assets/font/Fieldwork\ Geo\ DemiBold.otf') format('opentype'),
@@ -37,7 +34,7 @@
   font-style: normal;
 }
 
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
 /* import font /-end */
 
@@ -50,7 +47,7 @@
 
 
 body {
-  font-family: 'Fieldwork Geo Regular', sans-serif;
+  font-family: 'Fieldwork Geo Regular', sans-serif !important;
 }
 
 .container {
