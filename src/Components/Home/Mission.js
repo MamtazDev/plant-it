@@ -24,10 +24,10 @@ const Mission = () => {
                 className="bg-white rounded-2xl px-[40px] lg:px-[55px] py-[46px] lg:py-[66px] text-[#132B51]"
                 key={index}
               >
-                <p className="text-[20px] lg:text-[32px] font-semibold capitalize mb-3 lg:mb-5">
+                <p className="text-[20px] lg:text-[32px] font-semibold font-fieldworkGeoBold capitalize mb-3 lg:mb-5">
                   {data}
                 </p>
-                <p className="text-sm lg:text-xl font-light">
+                <p className="text-sm lg:text-xl font-light font-fieldworkGeoLight">
                   Lorem ipsum dolor sit amet consectetur. Massa et aliquet
                   aliquam vel eleifend sed. Feugiat netus ultricies laoreet at
                   nunc vitae dui amet risus. Dictumst fermentum phasellus duis
@@ -40,7 +40,7 @@ const Mission = () => {
         </div>
 
         <div className="text-end">
-          <button className="bg-lemon rounded-[80px] text-deepBlue text-2xl font-light capitalize py-[14px] px-[50px]">
+          <button className="bg-lemon rounded-[80px] text-deepBlue text-2xl font-light font-fieldworkGeoLight capitalize py-[14px] px-[50px]">
             find out more
           </button>
         </div>
