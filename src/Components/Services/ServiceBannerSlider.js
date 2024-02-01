@@ -140,7 +140,7 @@ const ServiceBannerSlider = () => {
             </button>
 
             <div className="title">
-              <h2 className="text-6 md:text-[50px] font-semibold text-white">
+              <h2 className="text-6 md:text-[50px] font-fieldworkGeoBold font-semibold text-white">
                 {titles[activeIndex]}
               </h2>
             </div>
@@ -155,7 +155,7 @@ const ServiceBannerSlider = () => {
           </div>
 
           <div className="description flex justify-center">
-            <p className="text-white text-base md:text-[24px] fieldworkGeoLight max-w-[803px] text-center leading-[160%]">
+            <p className="text-white text-base md:text-[24px] font-fieldworkGeoLight max-w-[803px] text-center leading-[160%]">
               {descriptions[activeIndex]}
             </p>
           </div>

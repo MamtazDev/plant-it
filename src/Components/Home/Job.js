@@ -33,10 +33,10 @@ const Job = () => {
               className="flex flex-col-reverse lg:flex-row items-start gap-10 lg:gap-[66px] pb-[62px] lg:pb-[122px]"
             >
               <div className="flex-shrink-0 mx-auto">
-                <p className="text-[18px] lg:text-[34px] font-semibold mb-[1px] lg:mb-1 ">
+                <p className="text-[18px] lg:text-[34px] font-fieldworkGeoBold font-semibold mb-[1px] lg:mb-1 ">
                   Job Tile
                 </p>
-                <p className="text-sm lg:text-[30px] font-light  ">Industry</p>
+                <p className="text-sm lg:text-[30px] font-light font-fieldworkGeoLight  ">Industry</p>
               </div>
               <p
                 style={{ borderColor: "rgba(19, 43, 81, 0.21)" }}

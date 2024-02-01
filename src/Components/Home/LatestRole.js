@@ -51,7 +51,7 @@ const LatestRole = () => {
             responsive={responsive}
             infinite={true}
             autoPlay={true}
-            autoPlaySpeed={2000}  
+            autoPlaySpeed={2000}
           >
             {details.map((data, index) => (
               <div
@@ -62,10 +62,12 @@ const LatestRole = () => {
                 <p className="text-[18px] lg:text-[34px] font-normal capitalize mb-3 lg:mb-5">
                   {data.designation}
                 </p>
-                <p className="text-sm lg:text-[26px] font-light mb-3">
+                <p className="text-sm lg:text-[26px] font-fieldworkGeoLight font-light mb-3">
                   {data.name}
                 </p>
-                <p className="text-xs lg:text-[22px] font-light">{data.date}</p>
+                <p className="text-xs lg:text-[22px] font-fieldworkGeoLight font-light">
+                  {data.date}
+                </p>
               </div>
             ))}
           </Carousel>
