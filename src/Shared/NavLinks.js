@@ -34,7 +34,7 @@ const NavLinks = ({ setShow }) => {
             onClick={() => setShow(false)}
             className={`${
               pathname === data.path ? "text-lemon font-semibold":"text-offWhite font-light"
-            } inline-block nav_link  text-[21px] leading-[0.42px]`}
+            } inline-block nav_link  text-[21px] leading-[0.42px] font-fieldworkGeoLight`}
             href={data?.path}
           >
             {data.name}

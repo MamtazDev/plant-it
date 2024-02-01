@@ -23,7 +23,7 @@ const Recruitment = () => {
           The recruitment company that cares more about{" "}
           <span>people and planet</span> than profit.
         </p>
-        <p className="text-base lg:text-2xl font-light text-deepBlue lg:text-center">
+        <p className="text-base font-fieldworkGeoLight lg:text-2xl font-light text-deepBlue lg:text-center">
           Lorem ipsum dolor sit amet consectetur. <br /> Et sagittis nec neque
           ut varius suspendisse. Bibendum etiam cursus leo aliquet venenatis
           diam lobortis nunc tristique. Nunc nulla neque lectus placerat aliquam
